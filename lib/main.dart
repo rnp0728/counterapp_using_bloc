@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'bloc/bloc_imports.dart';
 
 void main() {
+  Bloc.observer = MyBlocObserver();
   runApp(const MyApp());
 }
 
